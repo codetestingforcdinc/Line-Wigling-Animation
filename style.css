@@ -15,7 +15,7 @@ body
 svg
 {
   position: absolute;
-  width: 400px;
+  width: 540px;
   fill: none;
 }
 svg:nth-child(1)
