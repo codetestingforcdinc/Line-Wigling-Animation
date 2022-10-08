@@ -22,6 +22,10 @@ svg:nth-child(1)
 {
 	filter: blur(40px);
 }
+svg:nth-child(2)
+{
+	filter: blur(80px);
+}
 svg path
 {
   stroke: #8dd7bf;
@@ -36,11 +40,11 @@ svg path
 	0%,100%
 	{
   		stroke: #ff0092;
-		d: path("M0,25 C150,110 150,-90, 50,25");
+		d: path("M0,25 C150,110 150,-40, 50,25");
 	}
 	75%
 	{
   		stroke: #00a5e3;
-		d: path("M0,25 C160,-50 140,65, 80,25");
+		d: path("M0,25 C160,-50 140,165, 80,25");
 	}
 }
