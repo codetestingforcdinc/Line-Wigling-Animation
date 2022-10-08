@@ -28,10 +28,6 @@ svg:nth-child(1)
 {
 	filter: blur(40px);
 }
-svg:nth-child(2)
-{
-	filter: blur(80px);
-}
 svg path
 {
   stroke: #8dd7bf;
