@@ -14,7 +14,11 @@ body
 	flex-wrap: wrap;
 	background: #000;
 }
-svg
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 {
   position: absolute;
   width: 540px;
